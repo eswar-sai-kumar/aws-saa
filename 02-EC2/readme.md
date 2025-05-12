@@ -58,6 +58,64 @@ public IP insights →
 
 ![image](https://github.com/user-attachments/assets/c0882baa-7276-4573-874e-76f37d093f8b)
 
+### Elastic IP
+
+If we stop instance and start instance, public IP changes. 
+
+So we use Elastic IP. Elastic IP wont change public IP
+
+### Creating Elastic IP
+
+EC2 → Elastic IP Address → Amazon pool of IPV4 → allocate → actions → associate elastic IP → click instance → Instance → private IP → allocate
+
+### Placement groups
+
+🔶 What is a Placement Group?
+
+A Placement Group in AWS helps you control how EC2 instances are placed on underlying hardware to meet specific performance or fault tolerance needs.
+
+1. Cluster Placement Group
+   
+✅ Purpose: High performance
+
+📍 Placement: Instances are placed close together (in the same rack or host).
+
+⚡ Best for: Applications needing low latency and high throughput (like HPC, big data).
+
+❗ Downside: If the rack fails, all instances may be affected.
+
+2. Spread Placement Group
+   
+✅ Purpose: High availability
+
+📍 Placement: Instances are placed far apart (different racks or hardware).
+
+🛡️ Best for: Critical applications that must avoid single point of failure.
+
+📦 Limit: Max 7 instances per AZ per group.
+
+3. Partition Placement Group
+   
+✅ Purpose: Balance between performance and fault tolerance
+
+📍 Placement: Instances are divided into partitions (each partition in separate hardware).
+
+🧠 Best for: Large-scale distributed systems (e.g., Hadoop, Cassandra).
+
+🔁 Fault isolation: Failure in one partition doesn’t affect others.
+
+
+
+### Creating placement groups
+
+Instances → Placement groups → Name → Choose(Cluster, spread or partition) → Craete group
+
+EC2 → Launch EC2 instance → adv details → Placement group name → can select group
+
+### Elastic network interface (ENI)
+
+
+
 
 
 
