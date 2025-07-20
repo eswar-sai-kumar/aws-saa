@@ -45,7 +45,7 @@ IAM → Users → Click on user you created → Security credentials
 
 Create acccess key
 
-![image](https://github.com/user-attachments/assets/be98fe2d-e16c-4f9c-a4cb-e31c0b6a6cc0)
+![image](https://github.com/user-attachments/assets/be98fe2d-e16c-4f9c-a4cb-e31c0b6a6cc0)   
 
 CLI
 
