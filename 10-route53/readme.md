@@ -3,7 +3,6 @@ Route53 → Hosted zones → eswarsaikumar.site
 <img width="1402" height="726" alt="image" src="https://github.com/user-attachments/assets/a6c57835-004a-4e47-8232-12cb886788b0" />
 
 
-
 Create record
 
 <img width="1552" height="702" alt="image" src="https://github.com/user-attachments/assets/87664c9c-9c48-47a4-9c8a-5c14941fa16a" />
